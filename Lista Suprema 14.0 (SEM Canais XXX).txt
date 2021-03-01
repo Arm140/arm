@@ -1,45 +1,5 @@
 ﻿#EXTM3U
 
-#EXTINF:-1 group-title="INFANTIL" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/disney_xd_centro.jpg",Disney XD Full HD
-http://boxiptv.club:8181/everson1/everson2/162327
-#EXTINF:-1 group-title="INFANTIL" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/disney_xd_centro.jpg",Disney XD HD
-http://boxiptv.club:8181/everson1/everson2/162328
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_action_hd.jpg",Telecine Action Full HD
-http://boxiptv.club:8181/everson1/everson2/162381
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_action_hd.jpg",Telecine Action HD
-http://boxiptv.club:8181/everson1/everson2/162382
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_action.jpg",Telecine Action SD
-http://boxiptv.club:8181/everson1/everson2/162383
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_cult.jpg",Telecine Cult Full HD
-http://boxiptv.club:8181/everson1/everson2/162384
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_cult.jpg",Telecine Cult HD
-http://boxiptv.club:8181/everson1/everson2/162385
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_cult.jpg",Telecine Cult SD
-http://boxiptv.club:8181/everson1/everson2/162386
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_fun.jpg",Telecine Fun Full HD
-http://boxiptv.club:8181/everson1/everson2/162387
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_fun.jpg",Telecine Fun HD
-http://boxiptv.club:8181/everson1/everson2/162388
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_fun.jpg",Telecine Fun SD
-http://boxiptv.club:8181/everson1/everson2/162389
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_pipoca_hd.jpg",Telecine Pipoca Full HD
-http://boxiptv.club:8181/everson1/everson2/162390
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_pipoca_hd.jpg",Telecine Pipoca HD
-http://boxiptv.club:8181/everson1/everson2/162391
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_pipoca.jpg",Telecine Pipoca SD
-http://boxiptv.club:8181/everson1/everson2/162392
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_premium_hd.jpg",Telecine Premium Full HD
-http://boxiptv.club:8181/everson1/everson2/162393
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_premium_hd.jpg",Telecine Premium HD
-http://boxiptv.club:8181/everson1/everson2/162394
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_premium.jpg",Telecine Premium SD
-http://boxiptv.club:8181/everson1/everson2/162395
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_touch.jpg",Telecine Touch Full HD
-http://boxiptv.club:8181/everson1/everson2/162396
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_touch.jpg",Telecine Touch HD
-http://boxiptv.club:8181/everson1/everson2/162397
-#EXTINF:-1 group-title="TELECINE / HBO" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/telecine_touch.jpg",Telecine Touch SD
-http://boxiptv.club:8181/everson1/everson2/162398
 #EXTINF:-1 tvg-logo="http://a5.vc/JHX" group-title="●Alternativos●", A&E FHD [Alter]
 http://dnsx.co:80/live/amanda.iptv/a1aw5s/90625.ts
 
