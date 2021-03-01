@@ -1,5 +1,19 @@
 ﻿#EXTM3U
+#EXTINF:-1 group-title="XXX:ADULTOS" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/venus_jp.jpg",Xxx: Venus SD
+http://boxiptv.club:8181/everson1/everson2/162186
+#EXTINF:-1 group-title="XXX:ADULTOS" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/playboy_sextreme.jpg",Xxx: Sexy Hot HD
+http://boxiptv.club:8181/everson1/everson2/162184
+#EXTINF:-1 group-title="XXX:ADULTOS" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/playboy_sextreme.jpg",Xxx: Sexy Hot SD
+http://boxiptv.club:8181/everson1/everson2/162185
 
+#EXTINF:-1 group-title="XXX:ADULTOS" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/playboy_sextreme.jpg",Xxx: Sexy Hot Full HD
+http://boxiptv.club:8181/everson1/everson2/162183
+#EXTINF:-1 group-title="XXX:ADULTOS" tvg-logo="https://assets-global.website-files.com/56a8f71796f7e474512210ca/5d69a0f2068031348e8918c7_Sexprive.png",Xxx Sexy Prive Full HD
+http://boxiptv.club:8181/everson1/everson2/162178
+#EXTINF:-1 group-title="XXX:ADULTOS" tvg-logo="https://assets-global.website-files.com/56a8f71796f7e474512210ca/5d69a0f2068031348e8918c7_Sexprive.png",Xxx Sexy Prive HD
+http://boxiptv.club:8181/everson1/everson2/162179
+#EXTINF:-1 group-title="XXX:ADULTOS" tvg-logo="https://assets-global.website-files.com/56a8f71796f7e474512210ca/5d69a0f2068031348e8918c7_Sexprive.png",Xxx Sexy Prive SD
+http://boxiptv.club:8181/everson1/everson2/162180
 
 
 #EXTINF:-1 group-title="INFANTIL" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/disney_xd_centro.jpg",Disney XD Full HD
