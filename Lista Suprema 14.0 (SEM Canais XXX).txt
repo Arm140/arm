@@ -1,4 +1,44 @@
 ﻿#EXTM3U
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] BLUE HUSTLER
+http://psrv.io:80/9089247/coreurl.me/33381
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] BRAZZERS EUROPE
+http://psrv.io:80/9089247/coreurl.me/33382
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] CANDY
+http://psrv.io:80/9089247/coreurl.me/33383
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] CENTOXCENTO
+http://psrv.io:80/9089247/coreurl.me/33384
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] DORCEL TV
+http://psrv.io:80/9089247/coreurl.me/33385
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] EROXX
+http://psrv.io:80/9089247/coreurl.me/33386
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] PASSION
+http://psrv.io:80/9089247/coreurl.me/33387
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] PENTHOUSE BLACK
+http://psrv.io:80/9089247/coreurl.me/33388
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] PENTHOUSE QUICKIES
+http://psrv.io:80/9089247/coreurl.me/33389
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] PINK-O
+http://psrv.io:80/9089247/coreurl.me/33390
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] PLAYBOY
+http://psrv.io:80/9089247/coreurl.me/33391
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] PRIVATE HD
+http://psrv.io:80/9089247/coreurl.me/33392
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] REDLIGHT
+http://psrv.io:80/9089247/coreurl.me/33393
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] RUSNOCH
+http://psrv.io:80/9089247/coreurl.me/33394
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] SCT
+http://psrv.io:80/9089247/coreurl.me/33395
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] SEXT6SENSO
+http://psrv.io:80/9089247/coreurl.me/33396
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] SEXTREME
+http://psrv.io:80/9089247/coreurl.me/33397
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] SHALUN TV
+http://psrv.io:80/9089247/coreurl.me/33398
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] VENUS
+http://psrv.io:80/9089247/coreurl.me/33399
+#EXTINF:-1 tvg-logo="" group-title="Canais | Adultos",[XXX] VIVID RED
+http://psrv.io:80/9089247/coreurl.me/33400
 
 #EXTINF:-1 tvg-logo="http://logocanais.ddns.net/Logo/playboy1.png" grou #EXTINF:-1 tvg-logo="http://logocanais.ddns.net/Logo/sextreme1.png" group-title="CANAIS FILMES+18",SEXTREME http://n.srv1.xyz:8880/rogerrocha/estherlorena/32482 #EXTINF:-1 tvg-logo="http://logocanais.ddns.net/Logo/sexhot1.png" group-title="CANAIS FILMES+18",SEXHOT http://n.srv1.xyz:8880/rogerrocha/estherlorena/32480 #EXTINF:-1 tvg-logo="http://logocanais.ddns.net/Capas/2.png"
 
