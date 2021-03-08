@@ -1,0 +1,570 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-language" content="en"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description"
+          content="Image-Uploader is a simple jQuery Drag & Drop Image Uploader plugin made to be used in forms, without AJAX."/>
+    <meta name="keywords" content="image, upload, uploader, image-uploader, jquery, gallery, file, form, static"/>
+    <meta name="author" content="iliosiptv"/>
+    <meta name="copyright" content="© 2020 - iliosiptv"/>
+    <meta property="og:url" content="https://piccolo-tv.com"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Image-Uploader"/>
+    <meta property="og:description"
+          content="Image-Uploader is a simple jQuery Drag & Drop Image Uploader plugin made to be used in forms, without AJAX."/>
+    <meta property="og:image" content="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"/>
+
+    <title>DAILY -IPTV</title>
+    <script src="https://github.com/treshi/daily-iptv.al/ovc/counter.js"></script>
+    <link rel="stylesheet" href="dist/image-uploader.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Montserrat:300,400,500,600,700|Source+Code+Pro&display=swap"
+          rel="stylesheet">
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+        }
+
+        body {
+            background-image: url("src/background.png");
+            font-family: 'Lato', sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            color: rgba(0, 0, 0, 0.9);
+            line-height: 1.5;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.9);
+            color: rgb(255, 255, 255);
+            padding: 1rem;
+        }
+
+        header p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.2em;
+            font-weight: 200;
+            margin-bottom: 4rem;
+        }
+
+        main {
+            text-align: justify;
+            position: relative;
+            margin: 4rem 0;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.9);
+            color: rgb(255, 255, 255);
+            padding: 1rem 0;
+            margin-top: 4rem;
+        }
+
+        footer p {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1em;
+            font-weight: 200;
+            margin: 0;
+        }
+
+        a {
+            color: #50ce7d;
+            text-decoration: none;
+        }
+
+        h1,
+        h4,
+        h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+
+        h1 {
+            font-size: 3.6em;
+            margin: 4rem 0 1rem 0;
+        }
+
+        h4 {
+            font-size: 2em;
+            margin: 3rem 0 1rem 0;
+        }
+
+        h6 {
+            font-size: 1.2em;
+            margin: 1rem 0;
+        }
+
+        h4 small {
+            font-size: 70%;
+            font-weight: 300;
+        }
+
+        p {
+            margin: 1rem 0;
+        }
+
+        nav {
+            position: absolute;
+            margin-left: -12em;
+        }
+
+        nav ul {
+            margin-left: 0;
+            list-style: none;
+        }
+
+        nav ul li {
+            padding: .2rem 0;
+        }
+
+        nav ul li a {
+            font-size: 1.2em;
+            font-weight: 400;
+            font-family: 'Montserrat', sans-serif;
+            color: #2196f3;
+        }
+
+        pre {
+            font-family: 'Source Code Pro', monospace;
+            margin: 1rem 0;
+            padding: 1rem 1rem;
+            background: #f3f3f3;
+            font-size: .9em;
+            overflow-x: auto;
+        }
+
+        table code,
+        p code {
+            font-family: 'Source Code Pro', monospace;
+            background: #f3f3f3;
+            font-size: .9em;
+            padding: .1rem .3rem;
+        }
+
+        strong {
+            font-weight: 600;
+        }
+
+        form > button {
+            -webkit-appearance: none;
+            cursor: pointer;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            padding: 1rem 2rem;
+            border: none;
+            background-color: #50ce7d;
+            color: #fff;
+            text-transform: uppercase;
+            display: block;
+            margin: 2rem 0 2rem auto;
+            font-size: 1em;
+        }
+
+        ul {
+            margin-left: 2rem;
+        }
+
+        input {
+            background-color: #f5e3c4;
+            border: none;
+            border-radius: 0;
+            outline: none;
+            width: 100%;
+            line-height: normal;
+            font-size: 1em;
+            padding: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+            margin: 0;
+            color: rgba(0, 0, 0, 0.72);
+            background-position: center bottom, center calc(100% - 1px);
+            background-repeat: no-repeat;
+            background-size: 0 2px, 100% 1px;
+            -webkit-transition: background 0s ease-out 0s;
+            -o-transition: background 0s ease-out 0s;
+            transition: background 0s ease-out 0s;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#2196f3), to(#2196f3)), -webkit-gradient(linear, left top, left bottom, from(#d9d9d9), to(#d9d9d9));
+            background-image: -webkit-linear-gradient(#2196f3, #2196f3), -webkit-linear-gradient(#d9d9d9, #d9d9d9);
+            background-image: -o-linear-gradient(#2196f3, #2196f3), -o-linear-gradient(#d9d9d9, #d9d9d9);
+            background-image: linear-gradient(#2196f3, #2196f3), linear-gradient(#d9d9d9, #d9d9d9);
+            height: 2.4em;
+        }
+
+        input:focus {
+            background-size: 100% 2px, 100% 1px;
+            outline: 0 none;
+            -webkit-transition-duration: 0.3s;
+            -o-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            border-bottom: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+
+        .input-field label {
+            width: 100%;
+            color: #9e9e9e;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            font-size: 1em;
+            cursor: text;
+            -webkit-transition: -webkit-transform .2s ease-out;
+            transition: -webkit-transform .2s ease-out;
+            -webkit-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+            text-align: initial;
+            -webkit-transform: translateY(7px);
+            transform: translateY(7px);
+            pointer-events: none;
+        }
+
+        input:focus + label {
+            color: #2196f3;
+        }
+
+        .input-field {
+            position: relative;
+            margin-top: 2.2rem;
+        }
+
+        .input-field label.active {
+            -webkit-transform: translateY(-15px) scale(0.8);
+            transform: translateY(-15px) scale(0.8);
+            -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+        }
+
+        .container {
+            width: 60%;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .step {
+            font-size: 1.6em;
+            font-weight: 600;
+            margin-right: .5rem;
+        }
+
+        .option {
+            margin-top: 2rem;
+            border-bottom: 1px solid #d9d9d9;
+        }
+
+        .modal {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: rgba(0, 0, 0, .5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal .content {
+            background: #fff;
+            display: inline-block;
+            padding: 2rem;
+            position: relative;
+        }
+
+        .modal .content h4 {
+            margin-top: 0;
+        }
+
+        .modal .content a.close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            color: inherit;
+            font-size: 1.4rem;
+            line-height: 1;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        @media screen and (max-width: 1366px) {
+            body {
+                font-size: 15px;
+            }
+
+            nav ul li a {
+                font-size: 1.1em;
+
+            }
+        }
+
+        @media screen and (max-width: 992px) {
+            main {
+                margin: 2rem 0;
+            }
+
+            nav {
+                margin-left: -10em;
+            }
+        }
+
+        @media screen and (max-width: 786px) {
+            body {
+                font-size: 14px;
+            }
+
+            nav {
+                display: none;
+            }
+
+            .container {
+                width: 80%;
+            }
+        }
+
+        @media screen and (max-width: 450px) {
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163513671-2"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-163513671-2');</script>
+<!-- f99fe7caad9d627143ca9226a9c2534916a34cxd -->
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>DAILY-IPTV</h1>
+        <p>Daily-Iptv is a simple m3u & m3u8 links to see free tv channels in your tv iphone,smartphone,pc,tablet,laptop.</p><marquee behavior="scroll" direction="left">
+      📺 TODAY WATCH New lists AT piccolo-tv.com 07.03.2021📺  </marquee> 
+    </div>
+</header>
+
+<main>
+    <div class="container">
+
+        <nav>
+            <ul>
+                <li><a href="#howtouse">How to use it</a></li>
+                <li><a href="#options">Options</a></li>
+                <li><a href="#list-1">Playlist 1</a></li>
+                <li><a href="#list-2">Playlist 2</a></li>
+                <li><a href="http://www.piccolo-tv.com">Playlist 3</a><div style="z-index: 0;" class="new"></div></li>
+                <li><a href="http://www.player-castv.cf">Playlist 4</a></li>
+            </ul>
+            <h2 style="color:red">ZONE ads</h2>
+            <a href="http://www.namesilo.com/?rid=feb4870yd"><img src="http://www.namesilo.com/affiliate/banner_gen.php?aid=feb4870yd&bid=4" style="border:0;"></a>
+            <h2 style="color:red">ZONE ads</h2>
+            <a href="https://propellerads.com/publishers/?ref_id=eZBY"><img src="src/propeller.png" style="border:0;"></a>
+            <h2 style="color:red">ZONE ads</h2>
+            <a href="http://www.piccolo-tv.com/"><img src="src/piccolo.png" style="border:0;"></a>
+            <h2 style="color:red">ZONE ads</h2>
+            <a href="http://www.iphone-cartoon.cloud/"><img src="src/Mickey_plays_soccer.gif" style="border:0;"></a>
+            <h2 style="color:red">ZONE ads</h2>
+            <a href="//adsyou.pro/?rid=221"><img title="Click Here To Join Ads network Bitcoin" alt="Click Here To Join Ads network Bitcoin" src="https://adsyou.pro/index.php?page=dispatch/referral/5/125x125"></a> 
+        </nav>
+<script type="text/javascript" src="https://free-hit-counters.net/count/5z64"></script><br>
+ <a href='http://www.piccolo-tv.com'><img src="https://treshi.github.io/daily-iptv.al/src/lauda.gif"></a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=4564485d2e3a976dd0c83acb63598c88295f66e9'></script>
+        <h4 id="howtouse"><a href="#howtouse"># How to use it
+            <small>in 5 steps</small>
+        </a></h4>
+
+        <p><span class="step">1.</span>copy link <code>&lt;NEW TOOL IPTV&gt;</code>:</p>
+        <pre><code>&lt;paste en app like gse smart iptv"&gt;</code></pre>
+
+        <p><span class="step">2.</span>http://www.player-castv.cf <code>&lt;body&gt;</code>, click play:
+        </p>
+        <pre><code>&lt; 🇫🇷  FRANCE  M3U 🇫🇷 
+      <a href="http://player-castv.cf/get_m3u/piccolo-tv_channels_France.m3u" target="_blank">Download</a>
+ <p style="color:#c21605;"> 
+                          #EXTM3U
+                          COPY PASTE ON APP
+                    http://controlc.com/15f954e5   
+</p>
+<i class="fa fa-clock-o" aria-hidden="true"></i>
+</code></pre>
+<code>🇨🇭SWISS LINK  M3U🇨🇭</code>
+<a href="http://player-castv.cf/get_m3u/piccolo-tv_channels_Swiss.m3u" target="_blank">Download</a>
+<p style="color:#448709;">
+  
+</p>                            
+     <span class="step"></span>
+<p>3.🇦🇱 ALBANIA LINK  M3U🇦🇱 <code>copy paste into VLC PLAYER"</code> attributte:</p>
+        <pre><code>&lt;<a href="https://controlc.com/f3fb1c92" target="_blank">Download</a>
+ </code></pre>https://controlc.com/f3fb1c92
+        <p><span class="step">4.</span>🇮🇳 ☆☆☆☆INDIA  LINK  M3U8☆☆☆☆🇮🇳  </p>
+        <pre><code><a href="http://player-castv.cf/get_m3u/piccolo-tv_channels_india.m3u" target="_blank">Download</a>
+<p style="color:#c21605;">🇪🇬ARABIC M3U🇪🇬
+ <pre><code><a href="http://player-castv.cf/get_m3u/piccolo-tv_channels_Arab.m3u" target="_blank">Download</a>
+ <p>
+                                      #EXTM3U
+                               🇧🇷BRAZIL COPY PASTE ON TV🇧🇷
+                                https://controlc.com/f3fb1c92 
+#EXTINF:-1,BR: TV Brasil
+http://listamy.com:8080/live/lola/lola/365424.m3u8
+#EXTINF:-1,BR: Cinemax
+http://listamy.com:8080/live/lola/lola/365425.m3u8
+#EXTINF:-1,BR: Canal Brasil
+http://listamy.com:8080/live/lola/lola/365426.m3u8
+#EXTINF:-1,BR: Globo SP
+http://listamy.com:8080/live/lola/lola/365427.m3u8
+#EXTINF:-1,BR: Band
+http://listamy.com:8080/live/lola/lola/365428.m3u8
+#EXTINF:-1,BR: Boomerang
+http://listamy.com:8080/live/lola/lola/365429.m3u8
+#EXTINF:-1,BR: Combate
+http://listamy.com:8080/live/lola/lola/365430.m3u8
+#EXTINF:-1,BR: Discovery Channel
+http://listamy.com:8080/live/lola/lola/365431.m3u8
+#EXTINF:-1,BR: Discovery H&H
+http://listamy.com:8080/live/lola/lola/365432.m3u8
+#EXTINF:-1,BR: Discovery Science
+http://listamy.com:8080/live/lola/lola/365433.m3u8
+#EXTINF:-1,BR: Discovery Turbo
+http://listamy.com:8080/live/lola/lola/365434.m3u8
+#EXTINF:-1,BR: ESPN Brasil Sport
+http://listamy.com:8080/live/lola/lola/365435.m3u8
+#EXTINF:-1,BR: FOX
+http://listamy.com:8080/live/lola/lola/365436.m3u8
+#EXTINF:-1,BR: Fox Sports 2
+http://listamy.com:8080/live/lola/lola/365437.m3u8
+#EXTINF:-1,BR: Fox Sports
+http://listamy.com:8080/live/lola/lola/365438.m3u8
+#EXTINF:-1,BR: SporTV
+http://listamy.com:8080/live/lola/lola/365439.m3u8
+#EXTINF:-1,BR: SporTV 2
+http://listamy.com:8080/live/lola/lola/365440.m3u8
+#EXTINF:-1,BR: SporTV 3
+http://listamy.com:8080/live/lola/lola/365441.m3u8
+#EXTINF:-1,BR: Premiere 1 HD
+http://listamy.com:8080/live/lola/lola/365442.m3u8
+#EXTINF:-1,BR: PREMIERE CLUBES HD
+http://listamy.com:8080/live/lola/lola/365443.m3u8
+#EXTINF:-1,BR: Fish TV
+http://listamy.com:8080/live/lola/lola/365444.m3u8
+#EXTINF:-1,BR: The History Channel
+http://listamy.com:8080/live/lola/lola/365445.m3u8
+#EXTINF:-1,BR: National Geographic
+http://listamy.com:8080/live/lola/lola/365446.m3u8
+#EXTINF:-1,BR: Nickelodeon
+http://listamy.com:8080/live/lola/lola/365447.m3u8
+#EXTINF:-1,BR: Nick Jr
+http://listamy.com:8080/live/lola/lola/365448.m3u8
+#EXTINF:-1,BR: Tooncast
+http://listamy.com:8080/live/lola/lola/365449.m3u8
+#EXTINF:-1,BR: Universal Channel
+http://listamy.com:8080/live/lola/lola/365450.m3u8
+#EXTINF:-1,BR: A&E
+http://listamy.com:8080/live/lola/lola/365451.m3u8
+#EXTINF:-1,BR: AXN
+http://listamy.com:8080/live/lola/lola/365452.m3u8
+#EXTINF:-1,BR: Band News
+http://listamy.com:8080/live/lola/lola/365453.m3u8
+#EXTINF:-1,BR: Band Sports
+http://listamy.com:8080/live/lola/lola/365454.m3u8
+#EXTINF:-1,BR: Disney Channel
+http://listamy.com:8080/live/lola/lola/365455.m3u8
+#EXTINF:-1,BR: Disney Junior
+http://listamy.com:8080/live/lola/lola/365456.m3u8
+#EXTINF:-1,BR: Fox Life
+http://listamy.com:8080/live/lola/lola/365457.m3u8
+#EXTINF:-1,BR: HBO
+http://listamy.com:8080/live/lola/lola/365458.m3u8
+#EXTINF:-1,BR: HBO 2
+http://listamy.com:8080/live/lola/lola/365459.m3u8
+#EXTINF:-1,BR: HBO Family
+http://listamy.com:8080/live/lola/lola/365460.m3u8
+#EXTINF:-1,BR: HBO Plus
+http://listamy.com:8080/live/lola/lola/365461.m3u8
+#EXTINF:-1,BR: HBO Signature
+http://listamy.com:8080/live/lola/lola/365462.m3u8
+#EXTINF:-1,BR: Max
+http://listamy.com:8080/live/lola/lola/365463.m3u8
+#EXTINF:-1,BR: Max Up
+http://listamy.com:8080/live/lola/lola/365464.m3u8
+#EXTINF:-1,BR: Max Prime
+http://listamy.com:8080/live/lola/lola/365465.m3u8
+#EXTINF:-1,BR: Telecine Cult
+http://listamy.com:8080/live/lola/lola/365466.m3u8
+#EXTINF:-1,BR: Telecine Fun
+http://listamy.com:8080/live/lola/lola/365467.m3u8
+#EXTINF:-1,BR: Telecine Premium
+http://listamy.com:8080/live/lola/lola/365468.m3u8
+#EXTINF:-1,BR: Telecine Touch
+http://listamy.com:8080/live/lola/lola/365469.m3u8
+#EXTINF:-1,BR: Animal Planet
+http://listamy.com:8080/live/lola/lola/365470.m3u8
+#EXTINF:-1,BR: Cartoon Network
+http://listamy.com:8080/live/lola/lola/365471.m3u8
+#EXTINF:-1,BR: Disney XD
+http://listamy.com:8080/live/lola/lola/365472.m3u8
+#EXTINF:-1,BR: FX
+http://listamy.com:8080/live/lola/lola/365473.m3u8
+#EXTINF:-1,BR: H2
+http://listamy.com:8080/live/lola/lola/365474.m3u8
+#EXTINF:-1,BR: Record News
+http://listamy.com:8080/live/lola/lola/365475.m3u8
+#EXTINF:-1,BR: TCM
+http://listamy.com:8080/live/lola/lola/365476.m3u8
+#EXTINF:-1,BR: TNT
+http://listamy.com:8080/live/lola/lola/365477.m3u8
+#EXTINF:-1,BR: GLOBO RBS TV PELOTAS HD
+http://listamy.com:8080/live/lola/lola/365478.m3u8
+#EXTINF:-1,BR: Arte 1
+http://listamy.com:8080/live/lola/lola/365479.m3u8
+#EXTINF:-1,BR: Gloob
+http://listamy.com:8080/live/lola/lola/365480.m3u8
+#EXTINF:-1,BR: MegaPix
+http://listamy.com:8080/live/lola/lola/365481.m3u8
+#EXTINF:-1,BR: Syfy
+http://listamy.com:8080/live/lola/lola/365482.m3u8
+#EXTINF:-1,BR: Woohoo Brasil
+http://listamy.com:8080/live/lola/lola/365483.m3u8
+#EXTINF:-1,BR: Canal Sony
+http://listamy.com:8080/live/lola/lola/365484.m3u8
+#EXTINF:-1,BR: Discovery Kids
+http://listamy.com:8080/live/lola/lola/365485.m3u8
+#EXTINF:-1,BR: E!
+http://listamy.com:8080/live/lola/lola/365486.m3u8
+#EXTINF:-1,BR: Globo News
+http://listamy.com:8080/live/lola/lola/365487.m3u8
+#EXTINF:-1,BR: Investigação Discovery
+http://listamy.com:8080/live/lola/lola/365488.m3u8
+#EXTINF:-1,BR: PFC
+http://listamy.com:8080/live/lola/lola/365489.m3u8
+#EXTINF:-1,BR: Studio Universal
+http://listamy.com:8080/live/lola/lola/365490.m3u8
+#EXTINF:-1,BR: Telecine Pipoca
+http://listamy.com:8080/live/lola/lola/365491.m3u8
