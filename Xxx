@@ -1,5 +1,146 @@
+EXTM3U
+
+
 #EXTINF:-1 group-title="XXX:ADULTOS" tvg-logo="https://assets-global.website-files.com/56a8f71796f7e474512210ca/5d69a0f2068031348e8918c7_Sexprive.png",Xxx Sexy Prive Full HD
 http://boxiptv.club:8181/everson1/everson2/162178
 #EXTINF:-1 group-title="XXX:ADULTOS" tvg-logo="https://assets-global.website-files.com/56a8f71796f7e474512210ca/5d69a0f2068031348e8918c7_Sexprive.png",Xxx Sexy Prive HD
 http://boxiptv.club:8181/everson1/everson2/162179
 #EXTINF:-1 group-title="XXX:ADULTOS" tvg-logo="https://assets-global.website-files.com/56a8f71796f7e474512210ca/5d69a0f2068031348e8918c7_Sexprive.png",Xxx Sexy Prive SD
+
+
+#EXTINF:-1,BR: TV Brasil
+http://listamy.com:8080/live/lola/lola/365424.m3u8
+#EXTINF:-1,BR: Cinemax
+http://listamy.com:8080/live/lola/lola/365425.m3u8
+#EXTINF:-1,BR: Canal Brasil
+http://listamy.com:8080/live/lola/lola/365426.m3u8
+#EXTINF:-1,BR: Globo SP
+http://listamy.com:8080/live/lola/lola/365427.m3u8
+#EXTINF:-1,BR: Band
+http://listamy.com:8080/live/lola/lola/365428.m3u8
+#EXTINF:-1,BR: Boomerang
+http://listamy.com:8080/live/lola/lola/365429.m3u8
+#EXTINF:-1,BR: Combate
+http://listamy.com:8080/live/lola/lola/365430.m3u8
+#EXTINF:-1,BR: Discovery Channel
+http://listamy.com:8080/live/lola/lola/365431.m3u8
+#EXTINF:-1,BR: Discovery H&H
+http://listamy.com:8080/live/lola/lola/365432.m3u8
+#EXTINF:-1,BR: Discovery Science
+http://listamy.com:8080/live/lola/lola/365433.m3u8
+#EXTINF:-1,BR: Discovery Turbo
+http://listamy.com:8080/live/lola/lola/365434.m3u8
+#EXTINF:-1,BR: ESPN Brasil Sport
+http://listamy.com:8080/live/lola/lola/365435.m3u8
+#EXTINF:-1,BR: FOX
+http://listamy.com:8080/live/lola/lola/365436.m3u8
+#EXTINF:-1,BR: Fox Sports 2
+http://listamy.com:8080/live/lola/lola/365437.m3u8
+#EXTINF:-1,BR: Fox Sports
+http://listamy.com:8080/live/lola/lola/365438.m3u8
+#EXTINF:-1,BR: SporTV
+http://listamy.com:8080/live/lola/lola/365439.m3u8
+#EXTINF:-1,BR: SporTV 2
+http://listamy.com:8080/live/lola/lola/365440.m3u8
+#EXTINF:-1,BR: SporTV 3
+http://listamy.com:8080/live/lola/lola/365441.m3u8
+#EXTINF:-1,BR: Premiere 1 HD
+http://listamy.com:8080/live/lola/lola/365442.m3u8
+#EXTINF:-1,BR: PREMIERE CLUBES HD
+http://listamy.com:8080/live/lola/lola/365443.m3u8
+#EXTINF:-1,BR: Fish TV
+http://listamy.com:8080/live/lola/lola/365444.m3u8
+#EXTINF:-1,BR: The History Channel
+http://listamy.com:8080/live/lola/lola/365445.m3u8
+#EXTINF:-1,BR: National Geographic
+http://listamy.com:8080/live/lola/lola/365446.m3u8
+#EXTINF:-1,BR: Nickelodeon
+http://listamy.com:8080/live/lola/lola/365447.m3u8
+#EXTINF:-1,BR: Nick Jr
+http://listamy.com:8080/live/lola/lola/365448.m3u8
+#EXTINF:-1,BR: Tooncast
+http://listamy.com:8080/live/lola/lola/365449.m3u8
+#EXTINF:-1,BR: Universal Channel
+http://listamy.com:8080/live/lola/lola/365450.m3u8
+#EXTINF:-1,BR: A&E
+http://listamy.com:8080/live/lola/lola/365451.m3u8
+#EXTINF:-1,BR: AXN
+http://listamy.com:8080/live/lola/lola/365452.m3u8
+#EXTINF:-1,BR: Band News
+http://listamy.com:8080/live/lola/lola/365453.m3u8
+#EXTINF:-1,BR: Band Sports
+http://listamy.com:8080/live/lola/lola/365454.m3u8
+#EXTINF:-1,BR: Disney Channel
+http://listamy.com:8080/live/lola/lola/365455.m3u8
+#EXTINF:-1,BR: Disney Junior
+http://listamy.com:8080/live/lola/lola/365456.m3u8
+#EXTINF:-1,BR: Fox Life
+http://listamy.com:8080/live/lola/lola/365457.m3u8
+#EXTINF:-1,BR: HBO
+http://listamy.com:8080/live/lola/lola/365458.m3u8
+#EXTINF:-1,BR: HBO 2
+http://listamy.com:8080/live/lola/lola/365459.m3u8
+#EXTINF:-1,BR: HBO Family
+http://listamy.com:8080/live/lola/lola/365460.m3u8
+#EXTINF:-1,BR: HBO Plus
+http://listamy.com:8080/live/lola/lola/365461.m3u8
+#EXTINF:-1,BR: HBO Signature
+http://listamy.com:8080/live/lola/lola/365462.m3u8
+#EXTINF:-1,BR: Max
+http://listamy.com:8080/live/lola/lola/365463.m3u8
+#EXTINF:-1,BR: Max Up
+http://listamy.com:8080/live/lola/lola/365464.m3u8
+#EXTINF:-1,BR: Max Prime
+http://listamy.com:8080/live/lola/lola/365465.m3u8
+#EXTINF:-1,BR: Telecine Cult
+http://listamy.com:8080/live/lola/lola/365466.m3u8
+#EXTINF:-1,BR: Telecine Fun
+http://listamy.com:8080/live/lola/lola/365467.m3u8
+#EXTINF:-1,BR: Telecine Premium
+http://listamy.com:8080/live/lola/lola/365468.m3u8
+#EXTINF:-1,BR: Telecine Touch
+http://listamy.com:8080/live/lola/lola/365469.m3u8
+#EXTINF:-1,BR: Animal Planet
+http://listamy.com:8080/live/lola/lola/365470.m3u8
+#EXTINF:-1,BR: Cartoon Network
+http://listamy.com:8080/live/lola/lola/365471.m3u8
+#EXTINF:-1,BR: Disney XD
+http://listamy.com:8080/live/lola/lola/365472.m3u8
+#EXTINF:-1,BR: FX
+http://listamy.com:8080/live/lola/lola/365473.m3u8
+#EXTINF:-1,BR: H2
+http://listamy.com:8080/live/lola/lola/365474.m3u8
+#EXTINF:-1,BR: Record News
+http://listamy.com:8080/live/lola/lola/365475.m3u8
+#EXTINF:-1,BR: TCM
+http://listamy.com:8080/live/lola/lola/365476.m3u8
+#EXTINF:-1,BR: TNT
+http://listamy.com:8080/live/lola/lola/365477.m3u8
+#EXTINF:-1,BR: GLOBO RBS TV PELOTAS HD
+http://listamy.com:8080/live/lola/lola/365478.m3u8
+#EXTINF:-1,BR: Arte 1
+http://listamy.com:8080/live/lola/lola/365479.m3u8
+#EXTINF:-1,BR: Gloob
+http://listamy.com:8080/live/lola/lola/365480.m3u8
+#EXTINF:-1,BR: MegaPix
+http://listamy.com:8080/live/lola/lola/365481.m3u8
+#EXTINF:-1,BR: Syfy
+http://listamy.com:8080/live/lola/lola/365482.m3u8
+#EXTINF:-1,BR: Woohoo Brasil
+http://listamy.com:8080/live/lola/lola/365483.m3u8
+#EXTINF:-1,BR: Canal Sony
+http://listamy.com:8080/live/lola/lola/365484.m3u8
+#EXTINF:-1,BR: Discovery Kids
+http://listamy.com:8080/live/lola/lola/365485.m3u8
+#EXTINF:-1,BR: E!
+http://listamy.com:8080/live/lola/lola/365486.m3u8
+#EXTINF:-1,BR: Globo News
+http://listamy.com:8080/live/lola/lola/365487.m3u8
+#EXTINF:-1,BR: Investigação Discovery
+http://listamy.com:8080/live/lola/lola/365488.m3u8
+#EXTINF:-1,BR: PFC
+http://listamy.com:8080/live/lola/lola/365489.m3u8
+#EXTINF:-1,BR: Studio Universal
+http://listamy.com:8080/live/lola/lola/365490.m3u8
+#EXTINF:-1,BR: Telecine Pipoca
+http://listamy.com:8080/live/lola/lola/365491.m3u8
